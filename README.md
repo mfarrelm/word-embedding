@@ -9,9 +9,7 @@ Create word-embedding model using skip-gram and negative sampling. This model is
   - Gensim
   - sklearn
 
-### Model :
------------
-[w2v_embedding_269M_256dim](https://drive.google.com/open?id=1Pl4dlrupwIGjRhI_wyLBvm6WZqYEHOlv)
+### Model : [w2v_embedding_269M_256dim](https://drive.google.com/open?id=1Pl4dlrupwIGjRhI_wyLBvm6WZqYEHOlv)
 
 ### To visualizing word vector using T-SNE, run :
 ---------
@@ -33,6 +31,5 @@ $ python plot-tsne.py siang komputer sendu kaki mati apel relativitas emansipasi
 ![alt text](tsne_plot.jpg)
 
 ### Corpus source :
-------------
 Wikipedia (~5.6GB) : [https://dumps.wikimedia.org/idwiki/20200101/](https://dumps.wikimedia.org/idwiki/20200101/)\
 opensubtitle (~702MB) : [http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz](http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz)
