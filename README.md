@@ -14,7 +14,7 @@ Create word-embedding model using skip-gram and negative sampling. This model is
 ### To visualizing word vector using T-SNE, run :
 
 ``` bash
-$ python3 tsne_plot.py list_word
+$ python tsne_plot.py list_word
 ```
 This will generate a ~332 word with list_word as a generating keyword, and create
 a 2D plot of word vector.
