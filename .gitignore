@@ -1,3 +1,4 @@
 corpus/
 .ipynb_checkpoints
 *.npy
+*.model
