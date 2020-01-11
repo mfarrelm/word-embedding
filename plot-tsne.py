@@ -29,7 +29,7 @@ def tsne_plot(list_word, dpi = 400):
             tokens.append(model[word])
             labels.append(word)
 
-    tsne_model = TSNE(perplexity=40, n_components=2, init='pca', n_iter=2500, random_state=23)
+    tsne_model = TSNE(perplexity=40, n_components=2, init='pca', n_iter=3500, random_state=23)
     new_values = tsne_model.fit_transform(tokens)
 
     x = []
@@ -52,7 +52,7 @@ def tsne_plot(list_word, dpi = 400):
 def create_similar_word(a):
     list_word = []
     for word in a:
-        word_similar = model.wv.most_similar(word, topn = int(332/len(a) - 1))
+        word_similar = model.wv.most_similar(word, topn = int(500/len(a) - 1))
         for sim_word, _ in word_similar :
             list_word.append(sim_word)
         list_word.append(word)
