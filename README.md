@@ -21,7 +21,8 @@ a 2D plot of word vector.
 
 ### Example :
 ```bash
-$ python plot-tsne.py siang musik komputer mati bakteri senja rindu
+$ python plot-tsne.py siang komputer sendu kaki mati apel relativitas emansipasi jokowi
+
 ```
 
 ### Plot example :
