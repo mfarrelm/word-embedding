@@ -26,6 +26,6 @@ $ python plot-tsne.py siang musik komputer mati bakteri senja rindu
 
 ### Plot example :
 ![alt text](tsne_plot.jpg)
-### Source :
+### Corpus source :
 Wikipedia : [https://dumps.wikimedia.org/idwiki/20200101/](https://dumps.wikimedia.org/idwiki/20200101/)\
 opensubtitle : [http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz](http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz)
