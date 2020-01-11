@@ -7,7 +7,7 @@ import getopt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-model = gensim.models.word2vec.Word2Vec.load('w2v_embedding_200M_128dim.model')
+model = gensim.models.word2vec.Word2Vec.load('w2v_embedding_269M_256dim.model')
 def tsne_plot(list_word, dpi = 400):
 
     #"Creates and TSNE model and plots it"
