@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
-
 import sys
 import gensim
 import numpy as np
@@ -13,10 +6,6 @@ import matplotlib.pyplot as plt
 import getopt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-
-
-
-# In[16]:
 
 model = gensim.models.word2vec.Word2Vec.load('w2v_embedding_200M_128dim.model')
 def tsne_plot(list_word, dpi = 400):
@@ -29,7 +18,7 @@ def tsne_plot(list_word, dpi = 400):
             tokens.append(model[word])
             labels.append(word)
 
-    tsne_model = TSNE(perplexity=40, n_components=2, init='pca', n_iter=3500, random_state=23)
+    tsne_model = TSNE(perplexity=40, n_components=2, init='pca', n_iter=4000, random_state=23)
     new_values = tsne_model.fit_transform(tokens)
 
     x = []
@@ -57,11 +46,6 @@ def create_similar_word(a):
             list_word.append(sim_word)
         list_word.append(word)
     return list_word
-
-
-
-# In[ ]:
-
 
 
 list_word = sys.argv[1:]
