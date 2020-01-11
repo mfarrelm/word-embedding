@@ -1,6 +1,6 @@
 # word-embedding
 
-Create word-embedding model using skip-gram and negative example. This model trained with wikipedia and opensubtitle corpus with total word = 208.807M and output feature dimension = 128.
+Create word-embedding model using skip-gram and negative sampling. This model trained with wikipedia and opensubtitle corpus with total word = 208.807M and output feature dimension = 128.
 
 
 ### Requirements to use this program
