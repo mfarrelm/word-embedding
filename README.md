@@ -1,6 +1,6 @@
 # word-embedding
 
-Create word-embedding model using skip-gram. This model trained with wikipedia and opensubs corpus with total word = 208.807M and output feature dimension = 128.
+Create word-embedding model using skip-gram. This model trained with wikipedia and opensubtitle corpus with total word = 208.807M and output feature dimension = 128.
 
 
 ### Requirements to use this program
@@ -24,8 +24,8 @@ a 2D plot of word vector.
 $ python plot-tsne.py siang musik komputer mati bakteri senja rindu
 ```
 
-Example of plot can be seen on tsne_plot.jpg file
-
+### Plot example :
+![alt text](tsne_plot.jpg)
 ### Source :
-[Wikipedia](https://dumps.wikimedia.org/idwiki/20200101/)
-[opensubs](http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz)
+Wikipedia : [https://dumps.wikimedia.org/idwiki/20200101/](https://dumps.wikimedia.org/idwiki/20200101/)\
+opensubtitle : [http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz](http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.id.gz)
