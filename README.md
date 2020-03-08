@@ -8,8 +8,8 @@ Create word-embedding model using skip-gram and negative sampling. This model is
   - Python 2 or 3
   - Gensim
   - sklearn
+  - [w2v-model](https://drive.google.com/open?id=1Pl4dlrupwIGjRhI_wyLBvm6WZqYEHOlv)
 
-### Model : [w2v_embedding_269M_256dim](https://drive.google.com/open?id=1Pl4dlrupwIGjRhI_wyLBvm6WZqYEHOlv)
 
 ### To visualizing word vector using T-SNE, run :
 ---------
